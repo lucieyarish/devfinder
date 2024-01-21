@@ -1,0 +1,42 @@
+h1, 
+h2 {
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h3,
+h4 {
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 0.812rem;
+    line-height: 1.4;
+}
+
+h4,
+p {
+    font-size: 0.687rem;
+}
+
+p {
+    font-weight: 400;
+}
+
+a,
+a:visited,
+a:active {
+    text-decoration: none;
+}

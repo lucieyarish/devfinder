@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color-lm);
+  font-family: "Space Mono", monospace;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 0.812rem;
+  line-height: 1.4;
+}
+
+h4,
+p {
+  font-size: 0.687rem;
+}
+
+p {
+  font-weight: 400;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+:root {
+  --link-primary-color: #0079FF;
+  /* === LIGHT MODE === */
+  --background-color-lm: #F2F2F2;
+  --container-background-color-lm: #FEFEFE;
+  --stats-background-color-lm: #F6F8FF;
+  --title-color-lm: #2B3442;
+  --toggle-btn-color-lm: #697C9A;
+  --text-color-lm: #4B6A9B;
+  --not-available-color-lm: #A4B4CD;
+  /* === DARK MODE === */
+  --background-color-dm: #141D2F;
+  --container-background-color-dm: #1E2A47;
+  --title-toggle-text-color-dm: #FFFFFF;
+  --not-available-color-dm: #8E94A3;
+}/*# sourceMappingURL=styles.css.map */
