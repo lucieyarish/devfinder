@@ -1,0 +1,35 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 1.5em;
+    gap: 20px;
+
+    @media (min-width: 768px) {
+        padding: 6em 5em;
+    }
+
+    @media (min-width: 1024px) {
+        padding: 7em 15em;
+    }
+ 
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__searchbar,
+    &__main {
+        background: var(--container-background-color-lm);
+        border-radius: 15px;
+    }
+
+
+    &__searchbar {
+        padding: 1em;
+    }
+
+    &__main {
+        padding: 1.5em;
+    }
+}

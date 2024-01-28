@@ -63,9 +63,8 @@ a:active {
 :root {
   --link-primary-color: #0079FF;
   /* === LIGHT MODE === */
-  --background-color-lm: #F2F2F2;
   --container-background-color-lm: #FEFEFE;
-  --stats-background-color-lm: #F6F8FF;
+  --background-color-lm: #F6F8FF;
   --title-color-lm: #2B3442;
   --toggle-btn-color-lm: #697C9A;
   --text-color-lm: #4B6A9B;
@@ -75,4 +74,36 @@ a:active {
   --container-background-color-dm: #1E2A47;
   --title-toggle-text-color-dm: #FFFFFF;
   --not-available-color-dm: #8E94A3;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1.5em;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 6em 5em;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    padding: 7em 15em;
+  }
+}
+.container__header {
+  display: flex;
+  justify-content: space-between;
+}
+.container__searchbar, .container__main {
+  background: var(--container-background-color-lm);
+  border-radius: 15px;
+}
+.container__searchbar {
+  padding: 1em;
+}
+.container__main {
+  padding: 1.5em;
 }/*# sourceMappingURL=styles.css.map */
